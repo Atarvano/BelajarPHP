@@ -37,7 +37,7 @@
 ## Framework Laravel
 
 - [x] Instalasi Laravel
-- [ ] Struktur folder Laravel
+- [x] Struktur folder Laravel
 - [ ] Routing dan controller di Laravel
 - [ ] Blade template engine
 - [ ] Eloquent ORM
