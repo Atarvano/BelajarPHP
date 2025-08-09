@@ -15,8 +15,8 @@
 
 - [x] Konsep OOP (class, object, property, method)
 - [x] Inheritance, encapsulation, polymorphism
-- [ ] Constructor dan destructor
-- [ ] Static property & method
+- [x] Constructor dan destructor
+- [x] Static property & method
 - [ ] Namespace dan autoloading
 
 ## Database dengan PHP
@@ -36,7 +36,7 @@
 
 ## Framework Laravel
 
-- [ ] Instalasi Laravel
+- [x] Instalasi Laravel
 - [ ] Struktur folder Laravel
 - [ ] Routing dan controller di Laravel
 - [ ] Blade template engine
