@@ -17,22 +17,22 @@
 - [x] Inheritance, encapsulation, polymorphism
 - [x] Constructor dan destructor
 - [x] Static property & method
-- [ ] Namespace dan autoloading
+- [x] Namespace dan autoloading
 
 ## Database dengan PHP
 
-- [ ] Dasar-dasar MySQL/MariaDB
-- [ ] Koneksi database dengan PDO/MySQLi
-- [ ] CRUD (Create, Read, Update, Delete)
-- [ ] Prepared statement dan keamanan SQL Injection
+- [x] Dasar-dasar MySQL/MariaDB
+- [x] Koneksi database dengan PDO/MySQLi
+- [x] CRUD (Create, Read, Update, Delete)
+- [x] Prepared statement dan keamanan SQL Injection
 
 ## PHP MVC (Model-View-Controller)
 
-- [ ] Konsep MVC
-- [ ] Struktur folder MVC
-- [ ] Membuat routing sederhana
-- [ ] Membuat model, view, dan controller
-- [ ] Integrasi dengan database
+- [x] Konsep MVC
+- [x] Struktur folder MVC
+- [x] Membuat routing sederhana
+- [x] Membuat model, view, dan controller
+- [x] Integrasi dengan database
 
 ## Framework Laravel
 
