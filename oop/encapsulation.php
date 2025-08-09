@@ -3,7 +3,7 @@
 // belajar konsep OOP Encapsulation
 class Mobil
 {
-    private $merk;
+    protected $merk;
     private $harga;
     private $pembuat;
     protected $tahun;
@@ -19,7 +19,14 @@ class Mobil
     {
         return "$this->merk, $this->harga, $this->pembuat, $this->tahun";
     }
-
+    public function Nos()
+    {
+        return "Guest";
+    }
+    public function getMerk()
+    {
+        return $this->merk;
+    }
 }
 
 class BMW extends Mobil
@@ -32,13 +39,16 @@ class BMW extends Mobil
     {
         return "Mobil ini memiliki fitur NOS";
     }
-    public function getMerk()
+}
+class Ferrari extends Mobil
+{
+    public function __construct($merk, $harga, $pembuat, $tahun)
     {
-        return $this->merk;
+        parent::__construct($merk, $harga, $pembuat, $tahun);
     }
-    public function setMerk($merk)
+    public function Nos()
     {
-        $this->merk = $merk;
+        return "Mobil ini memiliki fitur NOS yang sangat cepat";
     }
 }
 
@@ -46,4 +56,10 @@ $mobil = new BMW('BMW', 500000, 'Jerman', 2023);
 echo $mobil->getLabel() . "<br>";
 echo $mobil->Nos() . "<br>";
 echo $mobil->getMerk() . "<br>";
+
+$ferrari = new Ferrari('Ferrari', 1000000, 'Italia', 2023);
+
+echo $ferrari->getLabel() . "<br>";
+echo $ferrari->Nos() . "<br>";
+echo $ferrari->getMerk() . "<br>";
 ?>

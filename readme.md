@@ -14,7 +14,7 @@
 ## Pemrograman Berorientasi Objek (OOP) di PHP
 
 - [x] Konsep OOP (class, object, property, method)
-- [ ] Inheritance, encapsulation, polymorphism
+- [x] Inheritance, encapsulation, polymorphism
 - [ ] Constructor dan destructor
 - [ ] Static property & method
 - [ ] Namespace dan autoloading
