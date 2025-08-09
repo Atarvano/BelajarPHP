@@ -6,10 +6,10 @@
 - [x] Sintaks dasar PHP (echo, variabel, tipe data)
 - [x] Operator dan ekspresi
 - [x] Struktur kontrol (if, else, switch, loop)
-- [ ] Fungsi dan scope variabel
-- [ ] Array dan manipulasi array
-- [ ] Form HTML dan pengolahan data dengan PHP
-- [ ] Validasi input
+- [x] Fungsi dan scope variabel
+- [x] Array dan manipulasi array
+- [x] Form HTML dan pengolahan data dengan PHP
+- [x] Validasi input
 
 ## Pemrograman Berorientasi Objek (OOP) di PHP
 
